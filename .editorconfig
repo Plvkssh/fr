@@ -1,0 +1,23 @@
+# http://editorconfig.org
+# Специальное свойство, которое должно быть указано в начале файла вне секций.
+# Устанавливает, следует ли прекращать поиск файла .editorconfig для текущего файла.
+root = true
+
+[*]
+# Стиль отступов: tab или space
+indent_style = space
+
+# Размер отступа в одинарных пробелах или табуляции
+indent_size = 2
+
+# Формат окончания строки: lf, crlf или cr
+end_of_line = lf
+
+# Кодировка файла: latin1, utf-8, utf-16be, utf-16le
+charset = utf-8
+
+# Удалять ли пробелы в конце строк (true или false)
+trim_trailing_whitespace = true
+
+# Должен ли файл заканчиваться новой строкой (true или false)
+insert_final_newline = true
